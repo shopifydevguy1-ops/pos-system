@@ -3,7 +3,7 @@ services:
     name: pos-system
     env: node
     plan: free
-    buildCommand: npm install && cd client && npm install && npm run build
+    buildCommand: ./build.sh
     startCommand: npm start
     autoDeploy: true
     branch: main
