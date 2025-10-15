@@ -45,8 +45,15 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/pos_syste
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
-.then(() => console.log('✅ Connected to MongoDB'))
-.catch(err => console.error('❌ MongoDB connection error:', err));
+.then(() => {
+  console.log('✅ Connected to MongoDB');
+  console.log(`📊 Database: ${mongoose.connection.db.databaseName}`);
+  console.log(`🌐 Host: ${mongoose.connection.host}:${mongoose.connection.port}`);
+})
+.catch(err => {
+  console.error('❌ MongoDB connection error:', err);
+  process.exit(1);
+});
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));

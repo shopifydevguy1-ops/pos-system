@@ -9,7 +9,9 @@
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
     "start": "node server/index.js",
-    "install-all": "npm install && cd client && npm install"
+    "install-all": "npm install && cd client && npm install",
+    "seed": "node server/scripts/seedDatabase.js",
+    "seed:reset": "node server/scripts/seedDatabase.js"
   },
   "keywords": ["pos", "point-of-sale", "inventory", "sales", "hris", "retail"],
   "author": "Shopify Dev Guy",

@@ -34,7 +34,7 @@ NODE_ENV=production
 PORT=10000
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/pos_system
 JWT_SECRET=your_super_secret_jwt_key_here
-JWT_EXPIRE=7d
+JWT_EXPIRE=365d
 CLOUD_SERVER_URL=https://your-cloud-server.com/api
 CLOUD_API_KEY=your_cloud_api_key
 ```

@@ -17,7 +17,7 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: JWT_EXPIRE
-        value: 7d
+        value: 365d
       - key: CLOUD_SERVER_URL
         value: https://your-cloud-server.com/api
       - key: CLOUD_API_KEY

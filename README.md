@@ -114,7 +114,7 @@ DB_NAME=pos_system
 
 # JWT Configuration
 JWT_SECRET=your_super_secret_jwt_key_here
-JWT_EXPIRE=7d
+JWT_EXPIRE=365d
 
 # Server Configuration
 PORT=5000
