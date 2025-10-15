@@ -5,6 +5,9 @@ services:
     plan: free
     buildCommand: npm run install-all && npm run build
     startCommand: npm start
+    autoDeploy: true
+    branch: main
+    repo: https://github.com/atShopifyDevGuy/POS
     envVars:
       - key: NODE_ENV
         value: production
