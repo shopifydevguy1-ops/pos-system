@@ -271,9 +271,9 @@ For support, email support@pos-system.com or create an issue in the repository.
 
 ## 📞 Contact
 
-- **Developer**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Developer**: Shopify Dev Guy
+- **Email**: shopifydevguy1@gmail.com
+- **GitHub**: [@atShopifyDevGuy](https://github.com/atShopifyDevGuy)
 
 ---
 
